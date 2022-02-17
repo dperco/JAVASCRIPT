@@ -1,0 +1,25 @@
+.layout{
+
+    display: grid;
+    height: 100%;
+    min-height: 100vh;
+    grid-template-columns: 1fr;
+    grid-row: 6rem 1fr 8rem;
+    position: relative;
+}
+
+.layout>header{
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+
+
+}
+
+.layout>header>img{
+
+    width: 5rem;
+    height: 5rem;
+    object-fit: contain ;
+    margin: 0,5rem;
+}

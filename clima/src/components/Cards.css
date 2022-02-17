@@ -1,0 +1,11 @@
+.cards {
+  display:flex;
+  flex-wrap: wrap;
+  padding:initial;
+  box-sizing:inherit;
+  width:auto;
+  height:max-content;
+  border:3% crimson;
+  justify-content:center;
+  background-color: rgb(43, 226, 119);
+}
